@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Hordaland IKT</title>
+    <meta name="description" content="Hordaland IKT levere dataløsninger godkjent av norsk helsenett">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://files.azizarslan.com/scicons.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/wfmi-style.css">
+  <link href='https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/animate.min.css">
+</head>
+  <body>
+    <section id="menu">
+
+      <div id="menuTop">
+        <a href="index.html"><h3>HORDALAND IKT</h3></a>
+        <p>
+          close X
+        </p>
+      </div>
+      <img src="img/HIKT-Logo_OutlineWhite.png" id="menuLogoBackground">
+      <div class="menuWrapper">
+        <div class="bigMenuBox" id="tjenester">
+          <h1>Tjenester</h1>
+        </div>
+        <div class="bigMenuBox" id="helsesektor">
+          <h1>Hovedside</h1>
+        </div>
+      </div>
+      <div class="menuWrapper">
+        <div class="smallMenuBox" id="kontakt">
+          <h3>Kontakt</h3>
+        </div>
+        <div class="smallMenuBox" id="support">
+          <h3>Support</h3>
+        </div>
+        <div class="smallMenuBox" id="stillinger">
+          <h3>Stillinger</h3>
+        </div>
+      </div>
+    </section>
+
+
+    <header class="abouthtmlHeader" id="hjem">
+
+    <nav>
+
+
+      <a href="#hjem"><img src="img/HIKT-Logo_OutlineWhite.png" id="logo"></a>
+      <ul id="rightNav">
+        <li>menu</li>
+        <li><a href="#systemApp"><div class="header__menu">
+      <a id="header__button" class="hamburger" href="#">
+        <div class="hamburger__inner"></div>
+      </a>
+    </div></a></li>
+
+      </ul>
+
+    </nav>
+
+<div class="aboutIntro">
+
+
+    <h1>Kontakt oss</h1>
+    <h3>"Vi er et energisk, fleksibelt og åpensindig team som er klare for å arbeide for våre klienter. Hvis du er interessert i å jobbe med oss, kontakt oss!"</h3>
+
+    <a href="mailto:post@hodalandikt.no" id="sendmail">post@hordalandikt.no</a>
+    <p>
+      tlf: 4000 1435
+    </p>
+
+    </div>
+  </header>
+
+  <section id="contact">
+
+
+
+
+    <div class="contactBoxes" id="findUs">
+      <div id="map"></div>
+      <div id="wobbleContact"></div>
+    </div>
+  </section>
+
+  <section id="folgOss">
+    <h3>Følg Oss</h3>
+    <h4>Finn ut av hva vi driver med for tiden.</h4>
+
+    <div class="social">
+    <a href="javascript:void(0);" class="icon-twitter"></a>
+      <a href="https://www.facebook.com/hordalandikt/?fref=ts" target="blank" class="icon-facebook"></a>
+      <a href="javascript:void(0);" class="icon-linkedin"></a>
+      <a href="javascript:void(0);" class="icon-gplus"></a>
+    </div>
+  </section>
+
+<footer id="abouthtmlFooter">
+
+  <p>Copyright &copy; Hordaland ikt. 2016.</p>
+</footer>
+
+  <script>
+    function initMap() {
+      var currentPosition = {lat: 60.3894, lng: 5.3300};
+      var mapDiv = document.getElementById('map');
+      var map = new google.maps.Map(mapDiv, {
+        center: currentPosition,
+        zoom: 14,
+        scrollwheel:  false
+      });
+
+      var marker = new google.maps.Marker({
+    position: currentPosition ,
+    map: map,
+    title: 'Hello World!'
+  });
+
+  options = $.extend({
+scrollwheel: false,
+navigationControl: false,
+mapTypeControl: false,
+scaleControl: false,
+draggable: false,
+mapTypeId: google.maps.MapTypeId.ROADMAP
+}, options);
+
+
+
+      map.set('styles', [
+
+  {
+  featureType: 'poi',
+  elementType: 'geometry',
+  stylers: [
+    { visibility: 'off' }
+  ]
+}, {
+  featureType: 'poi.school',
+  elementType: 'geometry',
+  stylers: [
+    { visibility: 'on' },
+    { hue: '#fff700' },
+    { lightness: -15 },
+    { saturation: 99 }
+  ]
+}
+]);
+    }
+  </script>
+
+  </div>
+</div>
+
+</section>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+    async defer></script>
+
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+  <script src="javascript/plugins.js"></script>
+  <script src="javascript/main.js"></script>
+
+  </body>
+</html>

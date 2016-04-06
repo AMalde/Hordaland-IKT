@@ -1,0 +1,1288 @@
+/*================================
+Aleksander Malde
+Copyright 2016 WWD
+written for - www.nexu.no
+
+swatch color:
+=======================
+rgb(33,	47,	63);
+rgba();
+rgba();
+
+=================================*/
+
+
+html {
+  height: 100%;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 50%;
+    margin: 0 auto;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+a:link, a:active, a:visited {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  }
+
+  p {
+    font-size: 2vw;
+  }
+
+    h1 {
+      font-weight: 100;
+      font-size: 10vmax;
+
+      letter-spacing: 2px;
+     }
+
+    h3 {
+      font-size: 1.5em;
+      font-style: ;
+      font-weight: 900;;
+      font-family: ;
+      letter-spacing: ;
+
+      }
+    h3 a { color: white; }
+    h3 a:hover { }
+
+    .boldText {
+      color:red;
+      font-weight: 900;
+    }
+
+    ul {
+     list-style-type: none;
+   }
+   button {
+     -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	transition: all 0.3s;
+   }
+   button: hover {
+
+   }
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+/*===========================About Html==============================*/
+
+.abouthtmlHeader {
+  text-align: center;
+  margin: 0;
+  position: relative;
+
+}
+
+
+
+.abouthtmlHeader h1 {
+  margin-top: 0em;
+  position: relative;
+  padding:3em 0 0.5em 0;
+}
+
+.abouthtmlHeader h3 {
+  font-size: 2.2vw;
+  font-weight: 100;
+
+  color: rgba(23,23,23,0.8);
+  margin: 0em 5em 2em 5em;
+}
+
+.aboutIntro {
+  height:60vh;
+
+}
+
+.aboutIntro p {
+  margin: 2em;
+
+  padding-bottom: 4em;
+  font-weight: 100;
+  font-style: italic;
+  position: relative;
+}
+#sendmail {
+  margin:2em;
+  border: solid rgb(23,23,23);
+  border-width: 2px;
+  padding: 0.6em;
+  font-size: 2vw;
+
+  font-weight: 400;
+
+  color: rgb(23,23,23);
+
+  -webkit-transition: all 0.5s ease-out;
+ -moz-transition: all .5s ease-out;
+ -o-transition: all .5s ease-out;
+ transition: all .5s ease-out;
+}
+
+#sendmail:hover {
+  background: rgb(23,23,23);
+  color: rgb(250,250,250);
+}
+
+#folgOss {
+  height: 70vh;
+  text-align: center;
+
+  width: 100%;
+  background: rgb(250,250,250);
+  position: relative;
+}
+
+#folgOss h3 {
+  text-align: center;
+  font-size: 3vw;
+  margin: 0;
+  padding-top: 3em;
+}
+
+#folgOss h4 {
+  font-size: 2vw;
+  font-weight: 100;
+}
+
+#abouthtmlFooter {
+  height: 30vh;
+}
+
+#contact {
+  margin-top:12em;
+  height: 70vh;
+  text-align: center;
+  position:relative;
+
+}
+
+
+
+#map {
+  position:relative;
+  height: 100vh;
+  width: 100%;
+  margin-top:2em;
+}
+
+/*============================= ansettelser =====================================*/
+.ansettelse {
+  height: 80vh;
+}
+
+.ansettelse p {
+  font-weight: 100;
+  font-size: 2vw;
+}
+#ansettButton {
+  width: 17%;
+  height: 7vh;
+  background: rgb(18,	146,	114);
+  border:none;
+  color: rgb(250,250,250);
+
+  font-size: 1.5vw;
+
+  margin-top: 2em;
+
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+
+}
+
+#ansettButton:hover {
+  background: rgb(238,	187,	0	);
+}
+
+
+
+
+/*==============================Tjenester html ==================================*/
+
+#tjenesterHtml {
+  background: white;
+}
+.flexboxTjenester {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  background: rgb(249,	249,	249	);
+
+
+  margin: 0;
+
+  -webkit-clip-path: polygon(0 0, 100% 5%, 100% 95%, 0% 100%);
+clip-path: polygon(0 0, 100% 5%, 100% 95%, 0% 100%);
+}
+
+#responstidAvtale {
+  -webkit-clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+}
+
+.blaa {
+  width: 100%;
+  height: 20vh;
+  background: rgb(23,	24,	33	);
+  margin-bottom: 3em;
+}
+
+#tjenesterHtml h1 {
+  padding-top: 2em;
+}
+
+.blaa h3 {
+  margin:0;
+  padding:0;
+  color: rgb(250,250,250);
+  font-weight: 100;
+}
+
+.flexboxSon {
+  display: inline-block;
+  width: 50%;
+  height: 70vh;
+  margin: 0 auto;
+  padding: 0;
+  background: rgb(250,250,250);
+  text-align: left;
+  margin-bottom: 1em;
+
+  overflow: hidden;
+}
+
+.flexboxSon ul {
+  margin: 6em 0 0 0;
+  list-style-type: disc;
+}
+
+.flexboxSon li {
+  margin-top:0.5em;
+  font-weight: 100;
+}
+
+.flexboxSon h3 {
+  text-align: left;
+  margin:2em 0 0em 1em;
+
+  font-weight: 900;
+  font-size: 3vw;
+}
+.flexboxSon h4 {
+  margin: 0;
+}
+
+.flexboxSon h4 {
+  margin: 0.5em 0 1em 1.7em;
+  font-size: 1.7vw;
+  font-weight: 100;
+}
+
+.flexboxSon p {
+  font-size: 1vw;
+  line-height: 1.5vw;
+  font-weight: 100;
+  margin: 0em 3em 0 3em;
+}
+
+.flexboxSon i {
+  font-size: 19vw;
+  font-weight: 100;
+
+  margin: 0.3em 0 0 0.7em;
+  color: rgb(26, 188, 156);
+
+  border-radius: 100%;
+
+}
+
+.flexboxSon button {
+  border: none;
+  width: 30%;
+  height:6vh;
+  background: rgb(29,	42,	60	);
+  color: rgb(250,250,250);
+  margin: 1.2em 0 0 2.4em;
+  font-weight: 100;
+
+  -webkit-transition: all 0.2s ease-out;
+ -moz-transition: all .2s ease-out;
+ -o-transition: all .2s ease-out;
+ transition: all .2s ease-out;
+}
+
+
+.flexboxSon button:hover {
+  background: rgb(238,	187,	0);
+  color: white;
+}
+
+
+.telefoni {
+  height: 80vh;
+  width: 100%;
+  color:white;
+  background: rgba(52, 152, 219,1.0);
+  -webkit-clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+}
+
+.telefoni i {
+  margin: 1.5em 0 0.2em 0;
+  font-size: 3em;
+  color: white;
+}
+
+.telefoni h3 {
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.telefoni h4 {
+  font-style: normal;
+  font-weight: 100;
+
+  font-size: 1.5vw;
+
+}
+.telefoni ul {
+  list-style-type: circle;;
+  text-align: left;
+}
+.telefoni li {
+  font-weight: 100;
+  font-size: 1.3vw;
+  margin:0.5em 10em 0 24em;
+}
+
+.flexboxBlue {
+  background: rgb(22,	31,	46	);
+  color: rgb(250,250,250);
+
+}
+
+.flexboxBlue button {
+  background: rgb(250,250,250);
+  color: rgb(22,	31,	46	);
+}
+
+#textBlue {
+  color: rgb(250,250,250);
+}
+
+.flexboxYellow {
+  background: rgb(26, 188, 156);
+}
+
+.productBox {
+  width: 30%;
+  height: 40vh;
+  margin: 0 auto;
+  margin-top: 2.5em;
+  background: white;
+
+}
+
+#harddrive {
+  color: rgb(17,	23,	35	);
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  visibility: hidden;
+  letter-spacing: 2px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+
+  background-color: rgb(242,	242,	242	);
+}
+
+
+
+/*================================ Header ==================================*/
+header {
+  width: 100%;
+  height: 450px;
+
+  background: rgb(245,245,245);
+
+}
+
+header h1 {
+  padding-top:3em;
+  font-weight: 600;
+}
+
+
+#title{
+  visibility: hidden;
+}
+
+#titleUnder {
+  visibility: hidden;
+}
+
+/*============================== HEALTH ICONS=================================*/
+
+.green {
+  visibility: hidden;
+  background: rgb(18,	146,	114	);
+  position: relative;
+  z-index: 3;
+  height: 600px;
+  width: 100%;
+
+  margin-top: -2em;
+
+  -webkit-clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 96%);
+}
+
+  #logoBackground {
+
+  }
+
+
+.green h1 {
+  font-size: 3vw;
+  color: white;
+  text-align: center;
+  padding: 2.15em 0 1em 0;
+}
+
+.green ul {
+margin: 0 0 2em 0;
+padding: 0;
+display: inline-block;
+  text-align: center;
+
+}
+
+.green i {
+
+}
+.green li {
+
+
+padding: 0 3em 0 3em;
+}
+
+.green li p {
+  float: right;
+
+
+}
+
+
+
+
+
+#logoBackground{
+  position:absolute;
+  z-index: 1;
+  margin-left: -12em;
+  margin-top: -3em;
+  width: 80%;
+  height: auto;
+  font-size: 3vw;
+  text-align: center;
+
+}
+
+header h1 {
+  color: rgb(39,	56,	76	);
+text-align: center;
+font-size: 5vw;
+padding: 0;
+margin: 1.6em 0 0 0;
+}
+header h3 {
+  text-align: center;
+  font-size: 3em;
+  padding: 0;
+  margin: 0;
+
+  color: rgba(39,	56,	76, 0.9)	;
+}
+
+.headerTitle {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 9vh;
+    z-index: 1;
+    width: 100%;
+
+}
+
+.headerTitle span {
+  font-weight: 900;
+}
+
+#nh {
+  color: rgb(59,	169,	250	);
+  text-decoration: underline;
+}
+
+.headerTitle p {
+  font-size: 1.8vw;
+  opacity: 0.7;
+  margin: 2em 13em 0 13em;
+}
+
+
+
+#wrapper {
+  display: flex;
+  width: 70%;
+  height: 30vh;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.wrapperTwo {
+
+  margin: 0 auto;
+  z-index: 2;
+  width: 50%;
+  height: 35vh;
+}
+
+.greenBox {
+  width:100%;
+  height: 12vh;
+  margin-top: 2em;
+  color: white;
+  margin: 0 auto;
+}
+
+
+.green i {
+  padding: 0em 0 0em .5em;
+  color: #f1c40f;
+  font-size: 3vw;
+}
+.textBox {
+
+  float:right;
+  width: 70%;
+  text-align: left;
+  margin: 0;
+}
+
+.textBox h4 {
+  margin: 0;
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+
+.textBox p {
+  margin-top: 0.3em;
+  font-size: 1vw;
+  font-weight: 100;
+}
+
+/*========================== våre produkter ============================*/
+
+#produkter {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+
+}
+
+#produkter h3 {
+  text-align: center;
+  font-size: 3.5vw;
+
+}
+
+#produkter p {
+  font-size: 1.5vw;
+  font-weight: 100;
+}
+
+#produkter button {
+  text-align: center;
+  margin-top:2em;
+  width: 18%;
+
+  font-size: 1.5vw;
+  height: 30px;
+  border: none;
+  background: rgb(29,	42,	60	);
+  color: rgb(250,250,250);
+
+  -webkit-transition: all 0.2s ease-out;
+ -moz-transition: all .2s ease-out;
+ -o-transition: all .2s ease-out;
+ transition: all .2s ease-out;
+
+
+}
+
+#produkter button:hover {
+  background: rgb(238,	187,	0	);
+}
+
+#produkter li {
+  display: inline;
+
+
+}
+
+#produkter ul {
+  margin-top: 3em;
+}
+
+#produkter p {
+  margin: 0 15em 0 15em;
+}
+
+#produkter i {
+    padding: 2em 2em 0 2em;
+  font-size: 2.5vw;
+  color: #3498db;
+}
+
+
+/*=========================== partnere ================================*/
+#partnere {
+  height: 100px;
+  width: 100%;
+  background: white;
+  position: relative;
+  margin:0;
+  padding: 0;
+
+
+}
+
+#partnere img {
+  width: 15vw;
+}
+#partnere ul{
+  margin: 0;
+  text-align: center;
+}
+
+#partnere li{
+  display: inline-block;
+  margin: 2em;
+
+}
+
+
+
+/*======================Ryktestrøm========================*/
+#rykte {
+  padding-top: 5em;
+  height: 500px;
+  width: 100%;
+  background: rgb(240, 240,240);
+  text-align: center;
+
+}
+
+#quote {
+  font-size: 10vw;
+}
+#rykte h3 {
+  font-size: 2.5vw;
+  font-weight: 100;
+  margin: 0 7em 0 7em;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+#rykte p {
+  font-size: 1.5vw;
+}
+
+/*navigation content*/
+nav {
+  background: rgba(23,23,23, 0);
+  color: black;
+  width: 30%;
+  height: 20vh;
+  position: fixed;
+  right: 0;
+  z-index: 99;
+
+  /*-webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.75);*/
+
+}
+
+nav a {
+  color: black;
+
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+li a {
+  color: black;
+
+}
+
+
+#rightNav{
+  float: right;
+  margin-top: 2.6em;
+  margin-left: 3em;
+
+}
+#rightNav li {
+  display: inline-block;
+  margin-right: 2.5em;
+}
+
+/*ICONS*/
+
+div.social {
+  width: 100%;
+  text-align: center;
+  margin:0 auto;
+  margin-top: 2em;
+}
+
+div.social a {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 5px;
+  font-family: "scicons";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  color: #fff;
+  transition: background-color .2s linear, color .2s linear;
+}
+div.social a:before {
+  width: inherit;
+  height: inherit;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+div.social a.icon-twitter {
+  background-color: #00acee;
+}
+div.social a.icon-twitter:before {
+  content: "";
+}
+div.social a.icon-twitter:hover {
+  background-color: #fff;
+  color: #00acee;
+}
+div.social a.icon-facebook {
+  background-color: #3b5998;
+}
+div.social a.icon-facebook:before {
+  content: "";
+}
+div.social a.icon-facebook:hover {
+  background-color: #fff;
+  color: #3b5998;
+}
+div.social a.icon-linkedin {
+  background-color: #007fb1;
+}
+div.social a.icon-linkedin:before {
+  content: "";
+}
+div.social a.icon-linkedin:hover {
+  background-color: #fff;
+  color: #007fb1;
+}
+div.social a.icon-gplus {
+  background-color: #dd4b39;
+}
+div.social a.icon-gplus:before {
+  content: "";
+}
+div.social a.icon-gplus:hover {
+  background-color: #fff;
+  color: #dd4b39;
+}
+
+
+.header__menu {
+  position: absolute;
+  top: 2.9em;
+  right: 20%;
+
+  color: black;
+}
+
+.hamburger {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  z-index: 900;
+  cursor: pointer;
+  color:black;
+}
+
+.hamburger__inner {
+  display: block;
+
+  z-index: 900;
+  width: 20px;
+  height: 3px;
+  margin-top: 12px;
+  background: rgb(23,23,23);
+  color: rgb(23,23,23);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.hamburger__inner::before, .hamburger__inner::after {
+  display: block;
+  position: absolute;
+  content: "";
+  z-index: 900;
+  width: 20px;
+  height: 3px;
+  background: rgb(23,23,23);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.hamburger__inner::before {
+  top: 0;
+
+}
+.hamburger__inner::after {
+  top: 6px;
+
+}
+
+.hamburger--open .hamburger__inner {
+  background: none;
+}
+.hamburger--open .hamburger__inner::before, .hamburger--open .hamburger__inner::after {
+  top: 12px;
+  background: white;
+  z-index: 300;
+}
+.hamburger--open .hamburger__inner::before {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  color: white;
+}
+.hamburger--open .hamburger__inner::after {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  color: white;
+}
+
+
+/*========================== MENU ===============================*/
+#menu {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top:0;
+  z-index: 100;
+  background: rgb(23,23,23);
+
+  display: none;
+}
+
+
+
+#menuLogoBackground{
+  z-index: 80;
+
+  width: 35%;
+  height: auto;
+  position: absolute;
+  margin: 2em 0 0 5em;
+
+
+}
+
+#menu #logo {
+  margin: 0 auto;
+  width: 1em;
+
+}
+
+#menuTop {
+  height: 10vh;
+  width: 100%;
+  background: rgb(23,23,23);
+  color: rgb(250,250,250);
+}
+
+#menuTop a {
+  margin-top: 0.5em;
+  padding:0em 0 0em 0.7em ;
+  z-index: 200;
+  float:left;
+  color:white;
+
+  -webkit-transition: all 0.5s ease-in-out;
+ -moz-transition: all 0.5s ease-in-out;
+ -o-transition: all 0.5s ease-in-out;
+ transition: all 0.5s ease-in-out;
+}
+
+#menuTop a:hover {
+  opacity: 0.9;
+}
+
+#menuTop p {
+  text-align: right;
+  padding:0.8em 2em 0 0;
+  margin:0;
+
+  color: rgb(250,250,250);
+  -webkit-transition: all 0.5s ease-in-out;
+ -moz-transition: all 0.5s ease-in-out;
+ -o-transition: all 0.5s ease-in-out;
+ transition: all 0.5s ease-in-out;
+ cursor: pointer;
+}
+
+#menuTop p:hover {
+  opacity: 0.9;
+}
+
+
+
+.menuWrapper {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  text-align: center;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.bigMenuBox {
+  width: 50%;
+  height: 45vh;
+  background: white;
+  z-index: 100;
+  display: inline-block;
+
+  -webkit-transition: all 0.3s ease-in-out;
+ -moz-transition: all 0.3s ease-in-out;
+ -o-transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
+
+}
+
+.bigMenuBox:hover {
+  background: rgba(22,	31,	46,0.9	);
+  color: rgb(250,250,250);
+}
+
+.bigMenuBox h1 {
+  font-size: 3vw;
+  font-weight: 400;
+  padding-top: 1.3em;
+}
+
+#tjenester {
+  background: rgba(26, 188, 156,0.9);
+  color: rgb(250,250,250);
+  z-index: 100;
+}
+
+#tjenester:hover {
+  background: rgba(22,	31,	46, 0.9	);
+}
+
+.smallMenuBox {
+  display: inline-block;
+  width: 33.33%;
+  height: 45vh;
+  background: rgb(23,	25,	32	);
+  border-right: solid rgba(250,250,250, 0.1);
+  border-width: 1px;
+  z-index: 100;
+  cursor: pointer;
+
+  -webkit-transition: background-color 0.2s ease-out;
+ -moz-transition: background-color 0.2s ease-out;
+ -o-transition: background-color 0.2s ease-out;
+ transition: background-color 0.2s ease-out;
+
+}
+
+.smallMenuBox:hover {
+  background: #2c3e50;
+}
+
+.smallMenuBox h3 {
+  color: white;
+  padding-top: 5em;
+
+  font-size: 2vw;
+  font-weight: 200;
+}
+
+
+
+/*=======================Nexu round==============================*/
+
+ #logo {
+   position: fixed;
+  z-index: 200;
+  top:2em;
+  left: 2%;
+  margin: 0;
+
+
+  height: 8vh;
+  width: auto;
+
+  padding: 0;
+  background: rgb(22, 160, 133);
+  border-radius: 100%;
+
+  /*-webkit-box-shadow: 0px 13px 17px -4px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 13px 17px -4px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 13px 17px -4px rgba(50, 50, 50, 0.75);*/
+
+
+  text-align: center;
+
+}
+
+#nexuRound:hover {
+  position: absolute;
+  transform: scale(1.3);
+
+}
+
+
+/*========================== Contact ==============================*/
+
+
+
+
+/*============================ Footer ================================*/
+footer {
+
+  margin-top: 0;
+  height: 21vh;
+  width: 100%;
+
+  text-align: center;
+  color: rgb(250,250,250);
+
+  background-color: rgb(22,	31,	46	);
+}
+footer p {
+  text-align: left;
+  color: rgba(250,250,250, 0.8);
+  font-size: 1vw;
+  margin:0 0 0 1em;
+  padding-top: 8em;
+  font-weight: 100;
+}
+
+
+/*==================================== animations ======================================*/
+.fadeToColor {
+  -webkit-filter: grayscale(0);
+     -moz-filter: grayscale(0);
+      -ms-filter: grayscale(0);
+       -o-filter: grayscale(0);
+        filter: grayscale(0);
+           filter: gray; /* IE 6-9 */
+}
+
+
+
+
+
+/*==================== helper classes ====================*/
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+/*======================== media queries ===========================*/
+@media screen and (max-width: 768px) {
+    /* Style adjustments for viewports that meet the condition */
+
+    #hjem{
+      height: 400px;
+      overflow: hidden;
+    }
+    .green {
+      height: 400px;
+    }
+
+    #produkter {
+      height: 400px;
+    }
+
+    #rykte {
+      height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+    /* Style adjustments for viewports that meet the condition */
+    #hjem{
+      height: 300;
+    }
+    .green {
+      height: 300px;
+    }
+
+    #menuIndicator {
+      display: none;
+    }
+
+    #produkter {
+      height: 300px;
+    }
+
+    #rykte {
+      height: 300px;
+    }
+  }
+
+
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

@@ -1,0 +1,102 @@
+/*================================
+Aleksander Malde
+Copyright 2016 WWD
+written for - www.nexu.no
+
+swatch color:
+=======================
+rgb(33,	47,	63);
+rgba();
+rgba();
+
+=================================*/
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    width: 80%;
+    margin: 0 auto;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0;
+}
+
+
+
+
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+a:link, a:active, a:visited {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+  }
+
+  a:visited {
+
+    }
+
+    h1 {
+      font-weight: 100;
+      font-size: 7em;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+     }
+
+    h2 { }
+
+    h3 {
+      font-size: 1.5em;
+      font-style: ;
+      font-weight: 900;;
+      font-family: ;
+      letter-spacing: ;
+
+      }
+    h3 a { color: white; }
+    h3 a:hover { }
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  letter-spacing: 2px;
+  line-height: 1.4;
+  font-family: 'Old Standard TT', serif;
+}
